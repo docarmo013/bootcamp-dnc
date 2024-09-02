@@ -131,3 +131,115 @@ body{
         box-shadow: 0px 6px 4px rgba(12, 112, 242, 0.25);
         cursor: pointer;
     }
+    footer{
+        width: 100%;
+        background-color: #0C70F2;
+    }
+    .linha1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    footer ul{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    footer nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 330px;
+    }
+    footer h5{
+        padding: 10px 10px 10px 10px ;
+        border-radius: 10px;
+        background: #303030;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    footer ul li{ 
+        margin: 20px 0px 20px 0px; 
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        color: white;
+    }
+    footer ul li a{
+        color: white;
+        text-decoration: none;
+    } 
+    footer ul li a:hover{
+        color: #8a8a8a;
+    }
+    footer .endereço{
+        font-weight: 600;
+        font-size: 18px;
+        font-family: Inter;
+        color: white;
+        text-align: center;
+        width: 20%;
+    }
+    footer .linha2{
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        height: 35px;
+        padding: 10px;
+    }
+    footer .linha2 a{
+        padding: 5px;
+        text-decoration: none;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+    }
+    footer .linha2 a:first-child{
+        border-right: 2px solid white;
+    }
+    footer .linha2 a:hover{
+        color: #8a8a8a;
+    }
+
+@media only screen and (max-width:600px) {
+    #principal{
+        
+        flex-direction: column;
+        height: auto;
+    }
+    #menu{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+    #menu a{
+        display: flex;
+        height: 50px;
+        align-items: center;
+    }
+    #principal button{
+        width: 100%;
+        margin: 0px;
+    }
+    section h1{
+        font-size: 38px;
+    }
+    section h2{
+        font-size: 27px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    form{
+        width: 95%;
+        font-size: 20px;
+    }
+    .checkboxitens label{
+        font-size: 17px;
+    }
+}
